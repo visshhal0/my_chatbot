@@ -1,5 +1,5 @@
 // 🚨 IMPORTANT: REPLACE THIS KEY WITH YOUR ACTUAL GOOGLE AI API KEY 🚨
-const GEMINI_API_KEY = "AIzaSyDJ5hbH0K2sgtIbMmQMwXrWDzkiSzVkXhE"; 
+const GEMINI_API_KEY = "AIzaSyBnyk3DialLdoeShB3T2zbM3WL4dY9gRhE"; 
 const MODEL_NAME = "gemini-2.5-flash"; 
 
 // State
@@ -180,4 +180,5 @@ async function sendMessage() {
 }
 
 // Initial UI update to set button state on load
+
 updateUI();
